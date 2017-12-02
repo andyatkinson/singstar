@@ -2,6 +2,7 @@
 
 require 'rubygems'
 require 'csv'
+require 'uri'
 
 rows = []
 
@@ -49,4 +50,12 @@ html = %{
   </body>
 </html>
 }
-File.open('songs.html', 'w'){ |f| f.write(html) }
+
+sinatra_app = %{
+require 'sinatra'
+get '/' do
+ %{#{html}}
+end
+}
+
+File.open('web.rb', 'w'){ |f| f.write(sinatra_app) }

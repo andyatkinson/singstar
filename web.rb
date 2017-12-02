@@ -1,4 +1,7 @@
 
+require 'sinatra'
+get '/' do
+ %{
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -1627,3 +1630,5 @@
     </table>
   </body>
 </html>
+}
+end

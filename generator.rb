@@ -25,17 +25,12 @@ html = %{
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Singstar Song List</title>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-3.2.1/dt-1.10.16/fh-3.1.3/datatables.min.css"/>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.2.1/dt-1.10.16/fh-3.1.3/datatables.min.js"></script>
   </head>
   <body>
-    <table class='table'>
+    <table id='song-list' class='display'>
       <thead>
         <tr>
           <th>Disc</th>
@@ -47,6 +42,12 @@ html = %{
         #{rows.join}
       </tbody>
     </table>
+
+    <script>
+    $(document).ready(function () {
+      $('#song-list').DataTable();
+    });
+    </script>
   </body>
 </html>
 }
@@ -58,4 +59,4 @@ get '/' do
 end
 }
 
-File.open('web.rb', 'w'){ |f| f.write(sinatra_app) }
+File.open('web.rb', 'w+'){ |f| f.write(sinatra_app) }

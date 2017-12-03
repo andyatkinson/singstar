@@ -44,8 +44,13 @@ html = %{
     </table>
 
     <script>
-    $(document).ready(function () {
-      $('#song-list').DataTable();
+    $(document).ready(function() {
+      $('#song-list').DataTable({
+        paging: false,
+        fixedHeader: {
+          header: true
+        }
+      });
     });
     </script>
   </body>

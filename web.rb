@@ -1625,9 +1625,13 @@ get '/' do
     </table>
 
     <script>
-    $(document).ready(function () {
-    console.log('song list init', $('#song-list'));
-      $('#song-list').DataTable();
+    $(document).ready(function() {
+      $('#song-list').DataTable({
+        paging: false,
+        fixedHeader: {
+          header: true
+        }
+      });
     });
     </script>
   </body>

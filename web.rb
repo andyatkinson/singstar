@@ -1621,6 +1621,186 @@ get '/' do
     <td> Hold On</td>
   </tr>
   
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Akon</td>
+    <td> Lonely</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> All Saints</td>
+    <td> Black Coffee</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Ashlee Simpson</td>
+    <td> Boyfriend</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Avril Lavigne</td>
+    <td> My Happy Ending</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Britney Spears</td>
+    <td> Baby One More Time</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Cascada</td>
+    <td> Everytime We Touch</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Corinne Baily Rae</td>
+    <td> Put Your Records On</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Daniel Powter</td>
+    <td> Bad Day</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Dannii Minogue</td>
+    <td> I Begin To Wonder</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Evanesence</td>
+    <td> Bring Me To Life</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Fall Out Boy</td>
+    <td> Dance Dance</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Girls Aloud</td>
+    <td> No Good Advice</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Goldfrapp</td>
+    <td> Oh La La</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Jamelia</td>
+    <td> Beware Of The Dog</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> James Morrison</td>
+    <td> You Give Me Something</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Jennifer Lopez</td>
+    <td> Jenny From The Block</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> JoJo</td>
+    <td> Leave (Get Out)</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Lemar</td>
+    <td> It's Not That Easy</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Lily Allen</td>
+    <td> Littlest Things</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> My Chemical Romance</td>
+    <td> Helena</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Nelly Furtado</td>
+    <td> Promiscuous</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Norah Jones</td>
+    <td> Don't Know Why</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Orson</td>
+    <td> Bright Idea</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Razorlight</td>
+    <td> Golden Touch</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Rihanna</td>
+    <td> SOS</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Scissor Sisters</td>
+    <td> I Don't Feel Like Dancing</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Sugababes</td>
+    <td> Push The Button</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Travis</td>
+    <td> Sing</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> U2</td>
+    <td> Beautiful Day</td>
+  </tr>
+  
+  <tr>
+    <td>Singstar Pop</td>
+    <td> Will Young</td>
+    <td> Switch It On</td>
+  </tr>
+  
       </tbody>
     </table>
 
